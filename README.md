@@ -5,4 +5,6 @@ This is a simple console game in which your opponent, **"the computer"**, choose
 - **Solution**
 
 The programe use "while loop" to iterate your guesses until input the right number. With If-else statement the program give you hints.
-
+- **Source code**
+[Source code]
+![image](https://github.com/user-attachments/assets/9229a1bc-c07d-4f18-a3a0-07026ad2a598)
