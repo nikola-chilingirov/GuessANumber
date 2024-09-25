@@ -7,7 +7,7 @@ This is a simple console game in which your opponent, **"the computer"**, choose
 The programe use "while loop" to iterate your guesses until input the right number. With If-else statement the program give you hints.
 - **Source code**
   
-[Source code]https://github.com/nikola-chilingirov/GuessANumber/blob/main/guess_a_number.py
+[Source code](https://github.com/nikola-chilingirov/GuessANumber/blob/main/guess_a_number.py)
 
 - **Screenshot**
 
