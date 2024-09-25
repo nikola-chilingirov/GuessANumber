@@ -1,12 +1,12 @@
 import random
 from colorama import Fore, Back, Style
+end = 100
+range_lev = f"1-{end}"
 flag = True
 while flag:
     counter = 0
     next_level = False
-    end = 100
     level = random.randint(1, end)
-    range_lev = "1-100"
     while counter < 8:
         player_input = input(Fore.YELLOW + f"Guess the number with {8 - counter} attempts {range_lev}:")
         if not player_input.isdigit():
@@ -29,12 +29,12 @@ while flag:
     if next_level:
         counter = 0
         end += 100
-        range_lev = "1-200"
+        range_lev = f"1-{end}"
         player_input = input(Fore.YELLOW + f"Next level or Exit: [Y] or [N]")
         if player_input == "Y":
             continue
-        #else:
-            #break
+        else:
+            break
     else:
         restart = input("Play again [Y] or [N]: ")
         if restart == "Y":
